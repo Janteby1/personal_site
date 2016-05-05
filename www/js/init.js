@@ -1,6 +1,8 @@
 (function($){
   $(function(){
 
+  	console.log("good day")
+  	
     $('.button-collapse').sideNav();
 	$('.scrollspy').scrollSpy();
 
@@ -264,9 +266,33 @@
 		e.target.style['zIndex'] = 2;
 	}
 
+
+
+
+
+    $('.collapsible').collapsible({
+      accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+    });
+
+	var options = [
+	{selector: '.class', offset: 200, callback: 'globalFunction()' },
+	{selector: '.other-class', offset: 200, callback: 'globalFunction()' },
+	];
+	Materialize.scrollFire(options);
+
+
+	var options = [
+	{selector: '#language-list', offset: 400, callback: 'Materialize.showStaggeredList("#language-list")' },
+	];
+	Materialize.scrollFire(options);
+    
+    $('.modal-trigger').leanModal();
+	
 	// [].forEach.call(card, function(card) {
 	// 	card.addEventListener('click', scaleCard, false);
 	// });
 
 	}); // end of document ready
 })(jQuery); // end of jQuery name space
+
+

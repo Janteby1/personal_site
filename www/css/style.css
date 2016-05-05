@@ -17,10 +17,11 @@
 
 
 #index-banner {
-    min-height: 632px;
-    max-height: 864px;
+    min-height: 70vh;
+    max-height: 110vh;
     position: relative;
     background-color: #2196F3;
+    opacity: .9;
 }
 
 #nav_f{
@@ -33,17 +34,23 @@
     font-size: 6.0em;
     font-weight: 100;
     color:white;
+    height: 70vh;
+}
+
+.intro {
+    font-size: 1.3em;
+    font-weight: 100;
 }
 
 .brand-logo{
     position: absolute;
-    color: #fff;
     display: inline-block;
     font-size: 2.1rem;
     font-style: normal;
-    font-weight: 100;
+    font-weight: bold !important;
     padding: 0;
     letter-spacing: 7px;
+    float: left;
 }
 
 .text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
@@ -69,7 +76,7 @@
 
 nav ul a {
     font-size: 1.2rem;
-    color: #FFF;
+    color: black !important;
     letter-spacing: 2px;
     display: block;
     font-weight: 300;
@@ -221,6 +228,15 @@ nav ul a {
     }
 }
 
+#center {
+    margin-left: 10em;
+    margin-right: 5em;
+}
+
+#lower {
+    margin-top: 5em;
+}
+
 input, textarea {
     border-bottom: 1px solid #fff;
 }
@@ -262,4 +278,53 @@ nav a.button-collapse {
 
 footer.page-footer {
     margin-top: 0px !important;
+}
+
+.card-image {
+    height: 20em;
+}
+
+#gem {
+    margin-top:6em;
+}
+
+#beth-torah {
+    margin-top: 8em;
+}
+
+.devicons {
+    font-size: 10em;
+}
+
+.devicons:hover {
+    color:#2196F3;
+}
+
+#jack {
+    height: 30em;
+    width: auto;
+}
+
+#done:hover {
+    color:#2196F3;
+}
+
+#link {
+    margin-left: 3em;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+.card-avatar img:hover {
+    color:#2196F3;
+}
+
+.link:hover {
+    color:#2196F3 !important;
+}
+
+.collapsible-header:hover {
+    color:#2196F3 !important;
 }

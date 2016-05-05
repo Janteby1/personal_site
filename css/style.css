@@ -61,6 +61,10 @@
 
 .in{font-weight: 400 !important; font-style: normal !important;}
 
+body{
+    margin-right: -2px;
+}
+
 .promo i {
     color: #2196F3;
     font-size: 7rem;
@@ -327,4 +331,11 @@ footer.page-footer {
 
 .collapsible-header:hover {
     color:#2196F3 !important;
+}
+
+@media only screen and (max-width: 500px) {
+    #nav_f {
+        width: 100%;
+        position: relative !important;
+}    
 }

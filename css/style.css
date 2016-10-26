@@ -333,7 +333,16 @@ footer.page-footer {
     font-weight: bold;
 }
 
+.picture {
+    padding-top: 2em;
+    left: 25% !important; 
+    width: auto !important; 
+}
 
-
+.picture2 {
+    padding-top: 1em;
+    left: 25% !important; 
+    width: auto !important; 
+}
 
 
